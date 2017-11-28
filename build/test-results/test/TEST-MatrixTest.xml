@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MatrixTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-28T22:56:18" hostname="NNRAD91WAS11144" time="0.008">
+  <properties/>
+  <testcase name="detTest" classname="MatrixTest" time="0.008"/>
+  <system-out><![CDATA[2.0,1.0,0.0,-1.0
+0.0,-1.0,0.0,3.0
+-2.0,1.0,1.0,-2.0
+3.0,2.0,0.0,1.0
+
+-8.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
