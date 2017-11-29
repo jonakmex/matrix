@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.jonakmex.exception.IllegalMatrixFormat;
-import com.jonakmex.operation.Matrix;
+import com.jonakmex.operation.Matrixable;
 
 
-public class MatrixImpl implements Matrix {
+public class MatrixableImpl implements Matrixable {
 
 	@Override
 	public Double det(Double[][] matrix)throws IllegalMatrixFormat {
