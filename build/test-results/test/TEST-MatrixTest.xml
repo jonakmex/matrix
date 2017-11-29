@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MatrixTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-28T22:56:18" hostname="NNRAD91WAS11144" time="0.008">
+<testsuite name="MatrixTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-29T17:41:40" hostname="NNRAD91WAS11144" time="0.01">
   <properties/>
-  <testcase name="detTest" classname="MatrixTest" time="0.008"/>
-  <system-out><![CDATA[2.0,1.0,0.0,-1.0
-0.0,-1.0,0.0,3.0
--2.0,1.0,1.0,-2.0
-3.0,2.0,0.0,1.0
+  <testcase name="detTest" classname="MatrixTest" time="0.01"/>
+  <system-out><![CDATA[7.0,6.0,3.0,7.0,5.0
+7.0,2.0,5.0,0.0,5.0
+3.0,3.0,4.0,6.0,0.0
+9.0,0.0,6.0,7.0,7.0
+8.0,2.0,0.0,1.0,2.0
 
--8.0
+8072.0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

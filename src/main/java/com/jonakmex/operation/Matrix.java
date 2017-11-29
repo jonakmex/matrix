@@ -7,4 +7,5 @@ public interface Matrix{
 	Double det(Double [][]matrix) throws IllegalMatrixFormat;
 	Double[][] obtenerMenorComp(Double [][]matrix, int row, int col);
 	String toString(Double [][]matrix);
+	Double[][] strToMatrix(String str);
 }
