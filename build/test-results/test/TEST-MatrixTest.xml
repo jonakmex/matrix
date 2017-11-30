@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MatrixTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-29T17:45:21" hostname="NNRAD91WAS11144" time="0.01">
+<testsuite name="MatrixTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-30T17:03:33" hostname="SSMDGSVRAD00014" time="0.015">
   <properties/>
-  <testcase name="detTest" classname="MatrixTest" time="0.01"/>
+  <testcase name="detTest" classname="MatrixTest" time="0.015"/>
   <system-out><![CDATA[7.0,6.0,3.0,7.0,5.0
 7.0,2.0,5.0,0.0,5.0
 3.0,3.0,4.0,6.0,0.0
