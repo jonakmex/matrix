@@ -9,14 +9,25 @@ repositories {
 }
 
 dependencies {
-    // This dependency is exported to consumers, that is to say found on their compile classpath.
-    api 'org.apache.commons:commons-math3:3.6.1'
+	// https://mvnrepository.com/artifact/org.quartz-scheduler/quartz
+	compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.2.1'
+	// https://mvnrepository.com/artifact/org.springframework/spring-core
+	compile group: 'org.springframework', name: 'spring-core', version: '4.3.13.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework/spring-context
+	compile group: 'org.springframework', name: 'spring-context', version: '4.3.13.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework/spring-beans
+	compile group: 'org.springframework', name: 'spring-beans', version: '4.3.13.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework/spring-context-support
+	compile group: 'org.springframework', name: 'spring-context-support', version: '4.3.13.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework/spring-tx
+	compile group: 'org.springframework', name: 'spring-tx', version: '4.3.13.RELEASE'
+	// https://mvnrepository.com/artifact/commons-io/commons-io
+	compile group: 'commons-io', name: 'commons-io', version: '2.5'
 
-    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
-    implementation 'com.google.guava:guava:21.0'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+	testCompile group: 'org.springframework', name: 'spring-test', version: '4.3.13.RELEASE'
 }
 
 version = '0.1.0'
